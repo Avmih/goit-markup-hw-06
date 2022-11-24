@@ -982,8 +982,8 @@ margin-bottom: 20px;
   border-radius: 4px;
   background-color: var(--black_gray);
   border: 1px solid var(--gray);
-
-}
+  color: var(--white);
+ }
 
 .footer-input:focus{
   outline: 1px solid var(--brand-color);
