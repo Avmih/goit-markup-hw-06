@@ -44,27 +44,31 @@
                 <div class="modal"> 
                     <button type="button" class="modal_button" data-modal-close> <svg class="modal_icon">
                         <use href="./img/icons.svg#icon-modal_icon"></use></svg></button>
-                        <h2 class="modal-title"> Залиште свої дані, ми вам передзвонимо</h2>
+                        <p class="modal-title"> Залиште свої дані, ми вам передзвонимо</p>
                         <form class="form-modal">
                             
                            <ul class="modal-contacts">
                             
-                             <li class="list-modal"><label for="name" class="text-label">Ім'я</label>
-                            <input type="text" name="name" id="name" class="modal_input"> <svg class="list-icon">
+                             <li class="list-modal">
+                            <label for="name" class="text-label">Ім'я</label>
+                            <input type="text" name="name-text" id="name" class="modal_input"> <svg class="list-icon">
                                 <use href="./img/icons.svg#icon-person-black-18dp-1"></use>
                             </svg></li>
 
-                            <li class="list-modal"> <label for="tel" class="text-label">Телефон</label>
+                            <li class="list-modal"> 
+                            <label for="tel" class="text-label">Телефон</label>
                             <input type="tel" name="tel" id="tel" class="modal_input"><svg class="list-icon">
                                 <use href="./img/icons.svg#icon-phone-black-18dp-1"></use>
                             </svg></li>
 
-                            <li class="list-modal"><label for="mail" class="text-label" >Пошта</label>
+                            <li class="list-modal">
+                            <label for="mail" class="text-label">Пошта</label>
                             <input type="email" name="mail" id="mail" class="modal_input"><svg class="list-icon">
                                 <use href="./img/icons.svg#icon-email-black-18dp-1"></use>
                             </svg></li> 
                             
-                            <li class="modal_comment"> <label for="comment" class="text-label" class="modal_smth">Коментар</label>
+                            <li class="modal_comment">
+                            <label for="comment" class="text-label" class="modal_smth">Коментар</label>
                             <textarea name="comment" id="text" placeholder="Введіть текст" rows="5" class="modal_textarea"></textarea></li>
 
                             </ul>
@@ -271,6 +275,15 @@
                         </svg></a> </li>
                     </ul>
 
+       </div>
+       
+
+       <div class="footer-form">
+        <p class="footer-form-text">Підпишіться на розсилку</p>
+        <form class="form-footer-style">
+            <input type="email" placeholder="E-mail" class="footer-input">
+            <button type="submit" class="footer-button">Підписатися <svg class="footer-form-icon"><use href="./img/icons.svg#icon-icon-send"></use></svg></button>
+        </form>
        </div>
         
     </div>
